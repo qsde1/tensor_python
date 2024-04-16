@@ -10,7 +10,7 @@ def makeIteration(state: list):
         rowNewState = []
         for colIndex, item in enumerate(rowList):
             neighboursCount = 0
-            #проверка по часовой оси, начинаю элемента над проверяемым
+            #проверка по часовой оси
             
             #проверить элемент сверху
             if(rowIndex == 0):
